@@ -1,0 +1,21 @@
+<app-nav></app-nav>
+<div class="container-fluid">
+    <div class="row" >
+       <div class="col-md-4" *ngFor="let p of products">
+            <div class="card"style="background-color: rgb(205, 243, 230)">
+                <div class="card-header">
+                    <img [src]="p.pimg" alt="" class="card-img-top" height="200" width="200">
+                </div>
+                <div class="card-body">
+                    <h1>{{p.pname}}</h1>
+                <div class="card-footer" >
+                    <h3>{{p.pprice|currency:'INR'}}</h3>
+                    <button class="btn btn-success">Add to Cart</button>
+                    <button class="btn btn-warning">Buy now</button>
+                    <button class="btn btn-danger" (click)="deleteItem(p)">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

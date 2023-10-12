@@ -1,0 +1,11 @@
+.navbar{
+    height:100px;
+    background-color:gray;
+}
+.head{
+    background-color: bisque;
+    color: black;
+}
+.nav-link{
+    font-size: 30px;
+color: white;}

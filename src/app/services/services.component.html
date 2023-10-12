@@ -1,0 +1,21 @@
+<app-nav></app-nav>
+<p>services works!</p>
+<!--<div *ngIf="exam;else examnotdone">
+    <h1>Angular class started</h1>
+</div>
+<ng-template #examnotdone>
+    <div>
+        <h1>Javascript completed but not Angular </h1>
+    </div>
+</ng-template>
+<button (click)="myfun()">exam completed</button>-->
+
+<input type=" text" [(ngModel)]="day">
+<ul [ngSwitch]="day">
+    <li *ngSwitchCase="0">Sunday</li>
+    <li *ngSwitchCase="1">Monday</li>
+    <li *ngSwitchCase="3">Tuesday</li>
+    <li *ngSwitchCase="4">Wednesday</li>
+    <li *ngSwitchCase="6">Friday</li>
+    <li *ngSwitchDefault>No way</li>
+</ul>

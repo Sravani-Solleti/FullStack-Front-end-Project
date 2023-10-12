@@ -1,0 +1,14 @@
+<img [src]="img1" alt="" height="720" width="1510">
+<div class="form">
+<div class="form-group">
+    <label for="" class="form-label">username</label>
+    <input type="text" class="form-control" name="username" id="" [(ngModel)]="username">
+</div>
+<div class="form-group">
+    <label for="" class="form-label">password</label>
+    <input type="password" class="form-control" name="password" id="" [(ngModel)]="password">
+</div><br>
+<div><button class="btn btn-danger">Cancel</button> &nbsp;
+ <button class="btn btn-success" (click)="login()">Login</button> 
+</div>
+</div>

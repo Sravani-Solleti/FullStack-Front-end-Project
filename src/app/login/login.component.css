@@ -1,0 +1,29 @@
+.form{
+    width:400px;
+    background-color: rgb(170, 108, 152);
+    position:absolute;
+    top:200px;
+    left:550px;
+    padding: 20px;
+}
+img{
+    opacity:0.5;
+}
+.form-label{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
